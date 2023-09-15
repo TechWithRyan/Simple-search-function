@@ -11,10 +11,10 @@ const Footer = () => {
                 <p className='text'>Newbie Developer —  Ryan-Phillips.</p>
             </div>
             <ul className='socials'>
-                <li><a href=""><FaFacebook /></a></li>
-                <li><a href=""><BsLinkedin /></a></li>
-                <li><a href=""><FaYoutube /></a></li>
-                <li><a href=""><BsGithub /></a></li>
+                <li><a href="https://www.facebook.com/ryanphillips.cornelio/"><FaFacebook /></a></li>
+                <li><a href="https://www.linkedin.com/in/ryan-phillips-iserhills-cornelio/"><BsLinkedin /></a></li>
+                <li><a href="https://www.youtube.com/channel/UCOg3PF76vT3K6DMGcU7-XzA"><FaYoutube /></a></li>
+                <li><a href="https://github.com/TechWithRyan"><BsGithub /></a></li>
             </ul>
 
         </footer >
