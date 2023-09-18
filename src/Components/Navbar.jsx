@@ -9,7 +9,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav expand="sm" className='navbar-is-transparent is-fullscreen' id="section-one">
+            <nav expand="sm" className='navbar-is-transparent is-fullscreen ' id="section-one">
 
                 <div className='links'>
                     <Link to="/"><div className='link'>Search</div></Link>

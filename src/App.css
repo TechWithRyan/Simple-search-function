@@ -35,7 +35,10 @@ html {
 
 }
 
+@include mobile {
 
-.App-link {
-  color: #0d86ff;
+  body {
+    width: 100%
+  }
+
 }

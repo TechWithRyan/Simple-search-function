@@ -6,23 +6,23 @@ import About from './Pages/About';
 import React from 'react';
 import Contact from './Pages/Contact';
 import Footer from './Components/Footer';
+import "bulma/css/bulma.css"
+
 
 function App() {
 
   return (
     <>
-      <div className="App">
-
-
-        <Navbar />
+      <Navbar />
+      <div className="container">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/store" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        <Footer />
       </div>
+      <Footer />
     </>
   )
 }
