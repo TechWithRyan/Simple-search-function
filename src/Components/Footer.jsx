@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="content has-text-centered">
-                <p className='text'>Newbie Developer —  Ryan-Phillips.</p>
+                <p className='text'>By newbie developer: Ryan-Phillips.</p>
             </div>
             <ul className='socials'>
                 <li><a href="https://www.facebook.com/ryanphillips.cornelio/"><FaFacebook /></a></li>
