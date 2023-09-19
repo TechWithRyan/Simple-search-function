@@ -1,13 +1,19 @@
-.footer {
+footer {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    background: #ffffff;
-    height: 2rem;
     width: 100vw;
-    padding-top: 40px;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    color: black;
+    background: white;
+    height: 2rem;
+}
 
+li {
+    list-style: none;
 }
 
 .content {
@@ -31,7 +37,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem 0 3rem 0;
+
+    color: black;
 }
 
 .socials li {
@@ -44,6 +51,7 @@
     padding: 10px;
     border-radius: 50%;
     font-size: 30px;
+    display: flex;
 }
 
 .socials a i {
@@ -56,7 +64,6 @@
     color: rgb(12, 142, 248);
 }
 
-.footer,
-text {
+p {
     color: black;
 }

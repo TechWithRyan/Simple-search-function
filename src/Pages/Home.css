@@ -1,31 +1,5 @@
-.is-overlay {
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
-
-.btn a {
-    color: white;
-}
-
 .btn a:hover {
     color: black;
-}
-
-.btn {
-    display: flex;
-    justify-content: center;
-    margin: 7rem auto;
-    height: 3rem;
-    width: 8rem;
-    font-size: 1rem;
-    background-color: rgb(8, 64, 229);
-    border-radius: 40px;
-    align-items: center;
-    justify-content: center;
-    border: none;
 }
 
 h1,
@@ -39,7 +13,6 @@ h5 {
 .text,
 .card-title {
     width: 50%;
-    color: rgb(0, 0, 0);
     padding: 2rem;
     height: 50%;
 }
@@ -48,19 +21,6 @@ p {
     font-size: 24px;
 }
 
-
-
-input,
-.form {
-    border-radius: 40px;
-    height: 30px;
-    justify-content: center;
-    padding: 20px;
-    width: 25rem;
-    display: flex;
-    margin: 0 auto;
-    border: none;
-    padding: 30px;
-    font-size: 30px;
-    outline: none;
+.title {
+    color: white;
 }
