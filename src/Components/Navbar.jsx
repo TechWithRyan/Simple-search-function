@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
         <>
             <nav className="navbar-is-transparent" role="navigation" aria-label="main navigation" style={{ height: '50px' }}>
-                <div className='navbar-brand' style={{ fontWeight: 500, fontSize: '20px', marginLeft: '20px', marginTop: '10px' }}><div className='logo'>Resturang Thai Lee</div>
+                <div className='navbar-brand' style={{ fontWeight: 500, fontSize: '20px', marginLeft: '20px', marginTop: '10px' }}><div className='logo'>Restaurang Thai Lee</div>
 
                     <div className={`navbar-burger ${active ? "is-active" : ""}`}>
                         <Hamburger
